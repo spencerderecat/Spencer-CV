@@ -1,0 +1,291 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{graytext}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+\definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo{profile.png}
+\name{Spencer}{DeRecat}
+\position{Software Engineer}
+\address{2424 Warring St, Berkeley, CA, 94704}
+
+\mobile{(707)548-1732}
+\email{derecats@gmail.com}
+\github{spencerderecat}
+\linkedin{www.linkedin.com/in/spencer-derecat}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+%   {\today}
+%   {Spencer DeRecat~~~·~~~Curriculum Vitae}
+%   {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+\cvsection{Education}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Electrical Engineering and Computer Science - GPA 3.323} % Degree
+    {University of California, Berkeley - College of Engineering} % Institution
+    {Berkeley, CA} % Location
+    {August 2016 - May 2020} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {Relevant Coursework: Structure of Computer Programs (Python), Data Structures (Java), Discrete Math and Probability Theory, Designing Information Devices and Systems I and II (Circuit Design), Computer Architecture and Machine Structure (C, Assembly), Foundations of Data Science, Intro to Artificial Intelligence, Challenge Lab (Hands-on Entrepreneurship Class)}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+
+\cvsection{Work Experience}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Web Development Engineer} % Job title
+    {RockWithThis} % Organization
+    {Oakland, CA} % Location
+    {September 2018 - PRESENT} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Work on both front and back end, use of React and Redux libraries for front end development in JavaScript.}
+        \item {Collaborate with owners on marketing tactics, made head of campus ambassador program to grow scope of company.}
+        \item {Exposure to working remotely, learning how to communicate effectively with team when not in an office setting.}
+      \end{cvitems}
+    }
+
+%----------------------------------------------------------
+
+  \cventry
+    {Software Engineering Intern} % Job title
+    {Edwards Lifesciences} % Organization
+    {Irvine, CA} % Location
+    {June 2018 - August 2018} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Facilitated progression of various projects using Jira Software to delegate tasks and bug fixes to team members.}
+        \item {Wrote scripts to automate documentation for software, wrote document parser and implemented simple GUI's.}
+        \item {Ran comprehensive tests on builds for several new software releases, included tests of hardware under extreme conditions and use of high risk equipment in lab.}
+        \item {Managed several excel files, updated and maintained employee records spreadsheets.}
+      \end{cvitems}
+      %\begin{cvsubentries}
+      %  \cvsubentry{}{KNOX(Solution for Enterprise Mobile Security) Penetration Testing}{Sep. 2013}{}
+      %  \cvsubentry{}{Smart TV Penetration Testing}{Mar. 2011 - Oct. 2011}{}
+      %\end{cvsubentries}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Extracurricular Activity}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Active Member and Community Development Chair} % Affiliation/role
+    {Phi Kappa Psi Fraternity} % Organization/group
+    {Berkeley, CA} % Location
+    {November 2016 - PRESENT} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {Active involvement in various committees governing the house, current chair for the community development committee promoting positive relationships with the surrounding community.}
+        \item {Past committee chairs for brotherhood and external philanthropy, organizing weekly trips to The Boys and Girls Club.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Lab Intern} % Affiliation/role
+    {USC Keck School of Medicine, Lab of Francis S Markland Jr.} % Organization/group
+    {Los Angeles, CA} % Location
+    {August 2015} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {Collaborated alongside professionals conducting highly technical procedures that produced clear and conclusive results for research of Glioma.}
+        \item {Introduced to common standards and etiquette involved with conducting oneself in a professional scientific environment.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Core Developer}
+    {Sentiment Analyzer} % Organization/group
+    {Fall 2018}
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {Assisting in writing sentiment analyzer for data driven consulting start up founded with fellow Berkeley students.}
+        \item {Using scrapers for social media sites such as Instagram and Twitter to harvest data and analyze it for the purpose of making predictions about future consumer actions.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Project Lead}
+    {"MKSFINDER"} % Organization/group
+    {Summer 2018}
+    {} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {A tool that parsed through an SDD traceability matrix and an SRS and found inconsistencies in required MKS IDs between the two documents.}
+        \item {Use of libraries to parse through word documents and .pdf files, implementation of a GUI with TKinter.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Awards, Skills, and Hobbies}
+
+
+%-------------------------------------------------------------------------------
+%	SUBSECTION TITLE
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvhonors}
+
+%---------------------------------------------------------
+  \cvhonor
+    {Life Member} % Award
+    {California Scholarship Federation} % Event
+    {}
+    {Awards} % Date(s)
+
+%---------------------------------------------------------
+  \cvhonor
+    {Recipient} % Award
+    {100 Hour Community Service Block Award (2)} % Event
+    {} % Location
+    {Awards} % Date(s)
+
+%---------------------------------------------------------
+  \cvhonor
+    {Languages} % Award
+    {Python, Java, JavaScript, C, C\#, LaTex, SQL, HTML, CSS} % Event
+    {} % Location
+    {Skills} % Date(s)
+
+%---------------------------------------------------------
+  \cvhonor
+    {Interests} % Award
+    {Playing Music, Snowboarding, Surfing, Hiking, Playing Tennis (HS Varsity Team Captain)} % Event
+    {} % Location
+    {Hobbies} % Date(s)
+
+%---------------------------------------------------------
+\end{cvhonors}
+
+
+\end{document}
